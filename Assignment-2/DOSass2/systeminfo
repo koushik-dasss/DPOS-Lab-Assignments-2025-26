@@ -1,0 +1,7 @@
+#! /bin/bash
+echo "User Name : $(whoami)"
+echo "System Name : $(uname)"
+echo "SHELL Type : $SHELL"
+echo "Path of Current Working Directory : $(pwd)"
+echo "File list in current working directory :"
+ls
