@@ -1,0 +1,16 @@
+#! /bin/bash
+even=0
+odd=0
+echo "Enter 10 no.s : "
+for i in {1..10}
+do
+read n
+if [ $((n%2)) -eq 0 ]
+then
+even=$((even+1))
+else
+odd=$((odd+1))
+fi
+done
+echo "Even numbers : $even "
+echo "Odd numbers : $odd"
